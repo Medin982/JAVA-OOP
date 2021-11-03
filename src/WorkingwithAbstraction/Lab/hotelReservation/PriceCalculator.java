@@ -12,4 +12,10 @@ public class PriceCalculator {
         this.season = season;
         this.discount = discount;
     }
+
+    public double calculate() {
+        int multiplier = this.season.getMultiplier();
+        double pecentDiscount = this.discount.getPercentage();
+        return this.pricePerDay * this.days * multiplier * (1 - pecentDiscount);
+    }
 }

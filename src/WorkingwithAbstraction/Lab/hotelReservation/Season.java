@@ -1,5 +1,7 @@
 package WorkingwithAbstraction.Lab.hotelReservation;
 
+import java.util.Locale;
+
 public enum Season {
     AUTUMN(1),
     SPRING(2),
@@ -13,5 +15,9 @@ public enum Season {
 
     public int getMultiplier() {
         return multiplier;
+    }
+
+    public static Season fromString(String season) {
+        return Season.valueOf(season.toUpperCase());
     }
 }
