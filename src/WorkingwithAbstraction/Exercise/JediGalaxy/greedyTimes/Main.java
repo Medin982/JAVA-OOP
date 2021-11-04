@@ -3,7 +3,7 @@
 //import java.util.LinkedHashMap;
 //import java.util.Scanner;
 //
-//public class Main {
+//public class Encapsulation.shoppingSpree.Main {
 //    public static void main(String[] args) {
 //
 //        Scanner scanner = new Scanner(System.in);
