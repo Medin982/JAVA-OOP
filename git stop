@@ -1,0 +1,48 @@
+[33mcommit 9736ee7a87b2d5172de3280d87bf08755a085a3d[m[33m ([m[1;36mHEAD[m[33m, [m[1;31mmaster/master[m[33m)[m
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Wed Nov 24 12:11:42 2021 +0100
+
+    Reflection
+
+[33mcommit 97cf78f8110ca2692e0a35f8394179c2741da3f7[m
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Mon Nov 22 17:33:13 2021 +0100
+
+    SOLID
+
+[33mcommit af3bca8eb96a77542dd945925d5a2be71d9036fa[m
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Fri Nov 12 11:00:13 2021 +0200
+
+    interfaces and abstraction
+
+[33mcommit 1e561a6698d6dc83f73ba4a1a7c402594330db86[m
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Thu Nov 4 15:12:35 2021 +0200
+
+    Encapsulation
+
+[33mcommit 71d3df6ad1daddb04e64786133c20d35cc4de16a[m
+Merge: bec2e16 8ba9702
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Wed Nov 3 09:15:17 2021 +0200
+
+    Merge branch 'master' of https://github.com/Medin982/JAVA-OOP
+
+[33mcommit bec2e16918060a8a0c59fa114770b3c1d9e930a8[m
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Wed Nov 3 09:14:10 2021 +0200
+
+    Create PriceCalculator
+
+[33mcommit 8ba97023121d578707d007a805db5d7314745dbd[m
+Author: Medin982 <86888951+Medin982@users.noreply.github.com>
+Date:   Wed Nov 3 08:39:30 2021 +0200
+
+    Create README.md
+
+[33mcommit 2911a19d7559856e4b92bdba0579e07d0019d412[m
+Author: Medin Tarakchiev <warss982@gmail.com>
+Date:   Wed Nov 3 08:29:49 2021 +0200
+
+    Some Exercise
