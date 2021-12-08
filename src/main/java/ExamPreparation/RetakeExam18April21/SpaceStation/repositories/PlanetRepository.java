@@ -1,0 +1,39 @@
+package ExamPreparation.RetakeExam18April21.SpaceStation.repositories;
+
+import ExamPreparation.RetakeExam18April21.SpaceStation.models.planets.Planet;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class PlanetRepository implements Repository<Planet> {
+
+    private List<Planet> planets;
+
+    public PlanetRepository() {
+        this.planets = new ArrayList<>();
+    }
+
+    @Override
+    public List<Planet> getModels() {
+        return Collections.unmodifiableList(planets);
+    }
+
+    @Override
+    public void add(Planet model) {
+        this.planets.add(model);
+    }
+
+    @Override
+    public boolean remove(Planet model) {
+        return this.planets.remove(model);
+    }
+
+    @Override
+    public Planet findByName(String name) {
+        return this.planets.stream()
+                .filter(p -> p.getName().equals(name))
+                .findFirst()
+                .orElse(null);
+    }
+}

@@ -1,0 +1,7 @@
+package ExamPreparation.RetakeExam18April21.SpaceStation.models.bags;
+
+import java.util.List;
+
+public interface Bag {
+    List<String> getItems();
+}
