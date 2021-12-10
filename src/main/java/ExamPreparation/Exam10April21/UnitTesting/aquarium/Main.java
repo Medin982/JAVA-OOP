@@ -1,4 +1,4 @@
-package ExamPreparation.Exam10April21.UnitTesting;
+package ExamPreparation.Exam10April21.UnitTesting.aquarium;
 
 public class Main {
     public static void main(String[] args) {

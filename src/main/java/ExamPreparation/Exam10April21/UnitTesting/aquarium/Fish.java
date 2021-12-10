@@ -1,4 +1,4 @@
-package ExamPreparation.Exam10April21.UnitTesting;
+package ExamPreparation.Exam10April21.UnitTesting.aquarium;
 
 public class Fish {
     private String name;

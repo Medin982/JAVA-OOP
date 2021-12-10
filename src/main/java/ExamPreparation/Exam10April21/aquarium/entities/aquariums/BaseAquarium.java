@@ -68,7 +68,7 @@ public abstract class BaseAquarium implements Aquarium {
     @Override
     public String getInfo() {
         StringBuilder builder = new StringBuilder();
-        builder.append(String.format("%s (%s):", getName(), getClass().getSimpleName()))
+        builder.append(String.format("%s (%s): ", this.getName(), this.getClass().getSimpleName()))
                 .append(System.lineSeparator());
 
         String fishInfo;
@@ -79,16 +79,12 @@ public abstract class BaseAquarium implements Aquarium {
             fishInfo = this.fish.stream().map(Fish::getName).collect(Collectors.joining(", "));
         }
 
-        builder.append("Fish: ")
-                .append(fishInfo)
+        builder.append(String.format("Fish: %s", fishInfo))
                 .append(System.lineSeparator())
-                .append("Decorations: ")
-                .append(this.decorations.size())
+                .append(String.format("Decorations: %d", this.decorations.size()))
                 .append(System.lineSeparator())
-                .append("Comfort: ")
-                .append(this.calculateComfort())
-                .append(System.lineSeparator());
-        return builder.toString().trim();
+                .append(String.format("Comfort: %d", this.calculateComfort()));
+        return builder.toString();
     }
 
     @Override
